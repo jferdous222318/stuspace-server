@@ -6,6 +6,7 @@ import { connectDB } from "./db.js";
 import authRoutes from "./routes/auth.js";
 import studioRoutes from "./routes/studios.js";
 import bookingRoutes from "./routes/bookings.js";
+import uploadRoutes from "./routes/upload.js";
 
 const app = express();
 app.set("trust proxy", 1);
